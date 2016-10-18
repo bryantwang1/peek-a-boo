@@ -2,11 +2,24 @@
   display:none;
 }
 
+#testing img {
+  width: 500px;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.testable {
+  cursor: pointer;
+  color: darkorange;
+}
+
+.testable:hover {
   text-decoration: underline;
 }
